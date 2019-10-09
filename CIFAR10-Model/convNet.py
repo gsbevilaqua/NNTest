@@ -9,8 +9,8 @@ SAVE_DIR = os.path.join(os.getcwd(), 'saved_models')
 
 batch_size = 32
 num_classes = 4
-epochs = 10
-model_name = 'img_orientation_trained_model.h5'
+epochs = 25
+model_name = 'img_orientation25e32b.h5'
 
 # Loading train and test data from file
 x_train = np.load('x_train.npy')
