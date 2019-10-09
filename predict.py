@@ -4,9 +4,14 @@ import cv2
 import numpy as np
 from PIL import Image
 import csv
+import sys
 
-model = load_model('saved_models\img_orientation5e64b.h5')
-print("Model loaded...")
+if len(sys.argv) < 2:
+    sys.exit(__doc__)
+model_name = sys.argv[1]
+
+model = load_model(os.path.join('saved_models\\', model_name))
+print("Model " + model_name + " loaded")
 
 TEST_PATH = 'test'
 ROTATED_PATH = 'test_rotated'
