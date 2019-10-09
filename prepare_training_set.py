@@ -5,7 +5,6 @@ import numpy as np
 
 LABELS = {'upright': 0, 'upside_down': 1, 'rotated_right': 2, 'rotated_left': 3}
 TRAIN_PATH = 'train'
-IMG_SIZE = 32
 
 X = []
 y = []
