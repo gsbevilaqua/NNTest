@@ -15,7 +15,7 @@ From the file **train.truth.csv** it will create 4 numpy array files: **x_train.
 
 ## Creating and Training the Model
 
-Run **convNet.py** the same way as before:
+Run **convNet.py** the same way as the previous file:
 ```
 python convNet.py
 ```
