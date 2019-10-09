@@ -1,7 +1,7 @@
 # Neural Network Test
 
 Based on the CIFAR10 model, this Concolutional Neural Network predicts the orientation of 64x64 pixel face photos so that it is possible to correct its orientations.
-It reaches 98.33% validation accuracy with 25 epochs. I've tried to make another one a little bit more deep with 1 extra layer in each set of fully connected layers 
+It reaches 98.33% validation accuracy with 25 epochs. I've tried to make another one a little bit deeper with 1 extra layer in each set of fully connected layers 
 and also used the Nadam optimizer instead of RMSProp and in 10 epochs it reaches 98.16% validation accuracy but seems to start overfitting a bit.
 
 ## Creating Training Data
