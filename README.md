@@ -1,4 +1,4 @@
-# Neural Network Test
+# Orientation correction Convolutoinal Neural Network for faces
 
 Based on the CIFAR10 model, this Concolutional Neural Network predicts the orientation of 64x64 pixel face photos so that it is possible to correct its orientations.
 It reaches 98.33% validation accuracy with 25 epochs. I've tried to make another one a little bit deeper with 1 extra layer in each set of fully connected layers 
